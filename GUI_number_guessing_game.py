@@ -11,7 +11,7 @@ from tkinter import *  # * means import everything inside that module
 from tkinter.messagebox import *
 import random # for random number generation
 
-root = Tk() # create window
+root = Tk() # create window (object or instance of Tk class)
 root.title('"Welcome to Number Guessing Game"')
 root.geometry('445x225') # window size
 
