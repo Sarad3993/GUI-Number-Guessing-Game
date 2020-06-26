@@ -14,11 +14,7 @@ import random # for random number generation
 root = Tk() # create window (object or instance of Tk class)
 root.title('"Welcome to Number Guessing Game"')
 root.geometry('445x225') # window size
-
-# for fixed window size
-
-root.maxsize(445,225)
-root.minsize(445,225)
+root.resizable(0,0) # for fixed window size
 
 label1 = Label(root, text= "NUMBER GUESSING GAME",fg='Purple',bg='Grey',font= 'Helvetica 13 bold')
 label2 = Label(root, text= "Enter your guess:",font='Georgia 13', fg='Blue')
