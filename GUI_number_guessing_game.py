@@ -15,6 +15,11 @@ root = Tk() # create window
 root.title('"Welcome to Number Guessing Game"')
 root.geometry('445x225') # window size
 
+# for fixed window size
+
+root.maxsize(445,225)
+root.minsize(445,225)
+
 label1 = Label(root, text= "NUMBER GUESSING GAME",fg='Purple',bg='Grey',font= 'Helvetica 13 bold')
 label2 = Label(root, text= "Enter your guess:",font='Georgia 13', fg='Blue')
 label3 = Label(root, text= "Result:",font='Georgia 13',fg='Red')
