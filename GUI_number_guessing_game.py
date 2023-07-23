@@ -81,9 +81,9 @@ def winning_logic(random_no,player_guess):
         result1 = 'Correct Guess!'
         entry2.delete(0, END)
         entry2.insert(0,result1)
-        chances.set(f'You Win!')
-        win = (f'Congrats! You guessed it correctly')
-        showinfo(f'Number Guessing Game', win)
+        chances.set('You Win!')
+        win = 'Congrats! You guessed it correctly'
+        showinfo('Number Guessing Game', win)
         response = askquestion('Number Guessing Game', 'Did you like the game?')
         if response == 'yes':
             showinfo('Number Guessing Game', "That's Great!!")
